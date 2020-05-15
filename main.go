@@ -11,6 +11,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
+// main
 func main() {
 
 	dataSource := "postgres://goland:goland@%s:5432/goland?sslmode=disable"
